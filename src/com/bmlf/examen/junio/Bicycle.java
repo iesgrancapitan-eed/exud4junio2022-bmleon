@@ -1,6 +1,6 @@
 package com.bmlf.examen.junio;
 
-class Bicycle {
+class Bike {
     int speed;
     int gear;
 
