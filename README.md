@@ -56,7 +56,7 @@
 
 ## GitHub Pages
 
-23. Sube el repositorio a GitHub (Añade aquí la url) y activa el hosting (GitHub Pages)(Añade aquí la url). Selecciona la carpeta docs como inicio
+1.  Sube el repositorio a GitHub (https://github.com/iesgrancapitan-eed/exud4junio2022-bmleon.git) y activa el hosting (GitHub Pages)(https://iesgrancapitan-eed.github.io/exud4junio2022-bmleon/). Selecciona la carpeta docs como inicio
 
 ## BitBucket
 
