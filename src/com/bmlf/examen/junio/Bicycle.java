@@ -1,31 +1,41 @@
 package com.bmlf.examen.junio;
 
-class Bike implements Vehicle {
+class Bike {
     int speed;
     int gear;
-
-    @Override
+/**
+ * generamos las marchas
+ * @param newGear
+ */
     public void changeGear(int newGear) {
         gear = newGear;
     }
-
-    @Override
+/**
+ * velocidad que aunmenta
+ * @param increment
+ */
     public void speedUp(int increment) {
         speed = speed + increment;
     }
-
-    @Override
+/**
+ * creamos applyBrakes
+ * @param decrement
+ */
     public void applyBrakes(int decrement) {
         speed = speed - decrement;
     }
-
-    @Override
+/**
+ * si se para bike
+ */
     public void printStates() {
         System.out.println("speed: " + speed
                 + " gear: " + gear);
     }
 
     @Override
+    /**
+     * clase string
+     */
     public String toString() {
         return "Bicycle [speed=" + speed + ", gear=" + gear + "]";
     }
@@ -33,7 +43,6 @@ class Bike implements Vehicle {
     /**
      * @return the speed
      */
-    @Override
     public int getSpeed() {
       return speed;
     }
@@ -41,7 +50,6 @@ class Bike implements Vehicle {
     /**
      * @param speed the speed to set
      */
-    @Override
     public void setSpeed(int speed) {
       this.speed = speed;
     }
@@ -49,15 +57,14 @@ class Bike implements Vehicle {
     /**
      * @return the gear
      */
-    @Override
     public int getGear() {
       return gear;
     }
 
     /**
+     * 
      * @param gear the gear to set
      */
-    @Override
     public void setGear(int gear) {
       this.gear = gear;
     }
