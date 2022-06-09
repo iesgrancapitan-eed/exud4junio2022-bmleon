@@ -60,4 +60,4 @@
 
 ## BitBucket
 
-24. Crea en tu servidor Bitbucket una copia del repositorio actual. Añade aquí la url para que al menos yo pueda verla (mlmagarin@iesgrancapitan.org). El mismo repositorio ha de estar en ambos servidores 
+1.  Crea en tu servidor Bitbucket una copia del repositorio actual. Añade aquí la url ([Enlace de Bitbucket](https://bitbucket.org/bmleon/exud4junio2022-bmleon/src/main/)) para que al menos yo pueda verla (mlmagarin@iesgrancapitan.org). El mismo repositorio ha de estar en ambos servidores 
