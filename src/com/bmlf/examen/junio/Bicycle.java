@@ -26,7 +26,36 @@ class Bicycle {
         return "Bicycle [speed=" + speed + ", gear=" + gear + "]";
     }
 
+    /**
+     * @return the speed
+     */
+    public int getSpeed() {
+      return speed;
+    }
+
+    /**
+     * @param speed the speed to set
+     */
+    public void setSpeed(int speed) {
+      this.speed = speed;
+    }
+
+    /**
+     * @return the gear
+     */
+    public int getGear() {
+      return gear;
+    }
+
+    /**
+     * @param gear the gear to set
+     */
+    public void setGear(int gear) {
+      this.gear = gear;
+    }
+
 }
+
 
 // class Bike implements Vehicle {
 //
